@@ -859,7 +859,7 @@ else
 binaries: linux win
 
 .PHONY: host_linux host_win
-host_linux: hashcat.bin
+host_linux: 1.bin
 host_win:   hashcat.exe
 
 .PHONY: linux win
